@@ -1,1 +1,26 @@
-<body>Hello World</body>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll</title>
+</head>
+<body>
+    <h1>Poll Question</h1>
+    <form id="pollForm">
+        <input type="radio" name="option" value="option1"> Option 1 <br>
+        <input type="radio" name="option" value="option2"> Option 2 <br>
+        <input type="radio" name="option" value="option3"> Option 3 <br>
+        <button type="submit">Vote</button>
+    </form>
+    <div id="pollResults">
+        <h2>Results</h2>
+        <div id="option1Result">Option 1: 0 votes</div>
+        <div id="option2Result">Option 2: 0 votes</div>
+        <div id="option3Result">Option 3: 0 votes</div>
+    </div>
+
+    <script src="poll.js"></script>
+</body>
+</html>
